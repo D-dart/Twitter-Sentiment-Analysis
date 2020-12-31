@@ -71,7 +71,7 @@ class SentimentAnalysis:
         stronglynegative = self.percentage(stronglynegative, NoOfTerms)
         neutral = self.percentage(neutral, NoOfTerms)
         polarity = polarity / NoOfTerms
-        print("How people are reacting on " + searchTerm + " by analyzing " + str(NoOfTerms) + " tweets.")
+        print("How people are reacting on " + searchTerm + " by analyzing " + str(NoOfTerms) + "number of tweets.")
         print()
         print("General Report: ")
         if (polarity == 0):
